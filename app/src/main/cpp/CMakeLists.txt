@@ -45,11 +45,8 @@ find_library( # Sets the name of the path variable.
 
 target_link_libraries( # Specifies the target library.
         depthaiandroid
-
         depthai::core
-
         usb-1.0
-
         # Links the target library to the log library
         # included in the NDK.
         ${log-lib})
