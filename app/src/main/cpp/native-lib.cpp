@@ -17,7 +17,6 @@ Java_com_example_depthaiandroid_MainActivity_stringFromJNI(
     dai::Pipeline pipeline;
 
     device.startPipeline(pipeline);
-
     //enum class UsbSpeed : int32_t { UNKNOWN, LOW, FULL, HIGH, SUPER, SUPER_PLUS };
 
     auto usbVal = static_cast<int32_t>(device.getUsbSpeed());
