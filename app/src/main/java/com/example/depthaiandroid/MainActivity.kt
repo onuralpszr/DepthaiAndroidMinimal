@@ -19,10 +19,6 @@ class MainActivity : AppCompatActivity() {
         binding.sampleText.text = stringFromJNI()
     }
 
-    /**
-     * A native method that is implemented by the 'depthaiandroid' native library,
-     * which is packaged with this application.
-     */
     private external fun stringFromJNI(): String
 
     companion object {
